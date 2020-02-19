@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang='en'>
 <head>
-	<meta charset='UTF-8'/>
-	<title>Home: Matrix Workflow</title>
-	<link rel='stylesheet' href='css/styles.css'/>	
-	<script src="scripts/scripts.js"></script>
+	<?php include($_SERVER['DOCUMENT_ROOT'] . '/php/misc-markup/head.php'); ?>
 </head>
 <body>
-	<header></header>
-	<main></main>
-	<footer></footer>
+	<header>
+		<?php include($_SERVER['DOCUMENT_ROOT'] . '/php/misc-markup/header.php'); ?>
+	</header>
+	<main>
+
+	</main>
+	<footer>
+		<?php include($_SERVER['DOCUMENT_ROOT'] . '/php/misc-markup/footer.php'); ?>
+	</footer>
 </body>
 </html>
